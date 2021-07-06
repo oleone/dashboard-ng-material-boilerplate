@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'portal-monkey-admin'`, () => {
+  it(`should have as title 'ng-material-dashboard-boilerplate'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('portal-monkey-admin');
+    expect(app.title).toEqual('ng-material-dashboard-boilerplate');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('portal-monkey-admin app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('ng-material-dashboard-boilerplate app is running!');
   });
 });

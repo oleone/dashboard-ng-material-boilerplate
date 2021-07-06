@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/portal-monkey-admin'),
+      dir: require('path').join(__dirname, './coverage/ng-material-dashboard-boilerplate'),
       subdir: '.',
       reporters: [
         { type: 'html' },
